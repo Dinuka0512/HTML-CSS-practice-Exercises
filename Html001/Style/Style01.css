@@ -1,0 +1,80 @@
+/**
+ * --------------------------------------------
+ * Author: Heshan Dinuka Lakmal
+ * GitHub: https://github.com/Dinuka0512
+ * --------------------------------------------
+ * Created: 2/15/2025$ 8:46 AM$
+ * Project: Html Projects$
+ * --------------------------------------------
+ **/
+
+
+/*section{*/
+/*    height: 100vw;*/
+/*    width: 100vh;*/
+/*    border: 1px solid red;*/
+
+/*    position: absolute;*/
+/*}*/
+
+div{
+    width: 50vw;
+    height: 50vh;
+}
+
+body>section>div:first-child{
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+body>section>div:nth-child(2){
+    background-color: green;
+    position: absolute;
+    right: 0;
+}
+
+body>section>div:nth-child(3){
+    background-color: green;
+    position: absolute;
+    bottom: 0;
+}
+
+body>section>div:nth-child(4){
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+body>section>div>div:first-child{
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+body>section>div>div>div{
+    width: 75px;
+    height: 75px;
+    background-color: #484848;
+}
+
+body>section>div>div>div:nth-child(1){
+    position: absolute;
+    top: 0;
+    border-top-left-radius: 100px;
+}
+
+body>section>div>div>div:nth-child(2){
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border-bottom-right-radius: 100px;
+}
