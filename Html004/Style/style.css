@@ -42,7 +42,7 @@ body>div:nth-child(3){
 
 body>div:nth-child(4){
     color: white;
-    font-size: 40px;
+    font-size: 5vh;
     width: 10vh;
     aspect-ratio: 1/1;
     align-items: center;
