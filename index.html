@@ -74,6 +74,20 @@
             height: 300px;
             background-color: whitesmoke;
             border-radius: 10px;
+
+            background-image: url("assets/images/img_1.png");
+            background-size: cover;
+
+            transition-duration: 300ms;
+        }
+
+        .card:hover{
+            opacity: 0.9;
+            box-shadow: 2px 2px 4px 2px gray;
+        }
+
+        .card:active{
+            opacity: 0.6;
         }
         
         @media all and (max-width:1500px ) {
@@ -126,6 +140,9 @@
 
         .card>a{
             align-content: center;
+            text-decoration: none;
+            font-size: 18px;
+            color: white;
         }
     </style>
 </head>
@@ -143,27 +160,27 @@
         </div>
         <div id="container">
             <div class="card">
-                <a>Project 01</a>
+                <a href="Html001/index01.html">Project 01</a>
             </div>
 
             <div class="card">
-                <a>Project 02</a>
+                <a href="Html002/index01.html">Project 02</a>
             </div>
 
             <div class="card">
-                <a>Project 03</a>
+                <a href="Html003/index01.html">Project 03</a>
             </div>
 
             <div class="card">
-                <a>Project 04</a>
+                <a href="Html004/index01.html">Project 04</a>
             </div>
 
             <div class="card">
-                <a>Project 05</a>
+                <a href="Html005/index01.html">Project 05</a>
             </div>
 
             <div class="card">
-                <a>Project 06</a>
+                <a href="Html006/index01.html">Project 06</a>
             </div>
         </div>
     </main>
