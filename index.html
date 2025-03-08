@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="Style/normalize.css">
+
+    <style>
+        nav{
+            width: 100vw;
+            height: 60px;
+            background-color: #206c00;
+            border-bottom: 2px solid white;
+
+            display: flex;
+            align-content: center;
+        }
+
+        #imageDiv{
+            margin-left:30px;
+            width: fit-content;
+            height: fit-content;
+        }
+
+        #logo{
+            width: 60px;
+        }
+
+        main{
+            display: flex;
+            flex-direction: column;
+        }
+
+        #wellcome{
+            text-align: center;
+            color: #656565;
+            font-weight: bolder;
+            font-size: 8vw;
+            margin-top: 0;
+            margin-bottom: 6px;
+            text-transform: uppercase;
+        }
+
+        p{
+            text-align: center;
+        }
+
+        #mP{
+            margin: 0;
+            font-size: 25px;
+        }
+
+        #container{
+            background-color: #D0D0D0FF;
+            width: 80vw;
+            height: fit-content;
+            padding: 30px;
+            align-self: center;
+            border-radius: 15px;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+        }
+
+        .card{
+            margin: 2px;
+            width: 100px;
+            height: 300px;
+            background-color: whitesmoke;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div id="imageDiv">
+            <img src="assets/images/whiteLogo.png" alt="Logo" id="logo">
+        </div>
+        <div>
+
+        </div>
+    </nav>
+
+    <main>
+        <div>
+            <h1 id="wellcome">WellCome</h1>
+            <p id="mP">Innovations by Dinuka</p>
+            <p>Explore my projects, track my progress, and see what I’ve been<br> building as I grow and evolve.</p>
+        </div>
+        <div id="container">
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+        </div>
+    </main>
+</body>
+</html>
